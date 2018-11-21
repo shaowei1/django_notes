@@ -91,4 +91,5 @@ def json_response(request):
 
 
 def redirect_response(request):
+    # redirect需要写全（总  ＋　子）
     return redirect('/static/error.html')

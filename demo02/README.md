@@ -824,6 +824,16 @@ class RegisterView(BaseView, BaseView2):
 
         return HttpResponse('post func')
 
+'''爷爷类相等
+demoview
+baseview
+base2view
+view
+as view 找到as view 算是头
+super as view
+super as view
+demoview
+'''
 ```
 ![](./static_files/inherit_order.png)
 
@@ -981,4 +991,6 @@ after response called
 ```
 
 
+# summary
 
+redirect需要写全（总  ＋　子）
